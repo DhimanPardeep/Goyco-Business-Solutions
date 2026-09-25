@@ -8,12 +8,12 @@ export default function Solutions() {
           <h2 className="fw-bold">Our Solutions</h2>
         </div>
 
-        <div className="row g-4">
-          <div className="col-md-6 col-lg-3">
+        <div className="row g-4 justify-content-center">
+          {/* <div className="col-md-6 col-lg-3">
             <div className="solution-card">
               <div className="solution-image">
                 <Image
-                  src={`${basePath}/images/ventture.png`}
+                  src={`${basePath}/images/logo/workyard.png`}
                   className="img-fluid"
                   alt=""
                   height={150}
@@ -33,23 +33,24 @@ export default function Solutions() {
                 <i className="bi bi-arrow-up-right"></i>
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-md-6 col-lg-3">
+          {/* <div className="col-md-6 col-lg-3">
             <div className="solution-card">
-              <div className="solution-image">
+              <div className="solution-image" style={{ width: "200px" }}>
                 <Image
-                  src={`${basePath}/images/NEEVSPACESLOGO.jpeg`}
+                  src={`${basePath}/images/logo/NEEVSPACES.jpg`}
                   className="img-fluid"
                   alt=""
+                  style={{ width: "200px" }}
                   height={150}
-                  width={150}
+                  width={200}
                 ></Image>
               </div>
 
               <h4>NEEVSPACES</h4>
 
-              <p></p>
+              <p>Old School trading of Coworking Spaces Services</p>
               <a
                 href="https://neevspaces.com/"
                 target="_blank"
@@ -59,57 +60,47 @@ export default function Solutions() {
                 <i className="bi bi-arrow-up-right"></i>
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-4">
             <div className="solution-card">
-              <div className="solution-image">
+              <div className="solution-image" style={{ width: "300px" }}>
                 <Image
-                  src={`${basePath}/images/ventture.png`}
+                  src={`${basePath}/images/logo/GolphoenAggregations.jpg`}
                   className="img-fluid"
                   alt=""
+                  style={{ width: "300px" }}
                   height={150}
-                  width={150}
+                  width={300}
                 ></Image>
               </div>
 
-              <h4>GOLPHOEN AGGREGATION Services</h4>
+              <h4 className="text-uppercase">Golphoen Aggregations</h4>
 
-              <p>
-                Aggregation services of all &ldquo;REAS&rdquo; Category
-                permises.
-              </p>
-              <a
-                href="https://golphoen.com"
-                target="_blank"
-                className="btn btn-visit"
-              >
+              <p>Aggregation Services of Solutions required in Business</p>
+              <a href="#" className="btn btn-visit">
                 Visit Website
                 <i className="bi bi-arrow-up-right"></i>
               </a>
             </div>
           </div>
 
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-4">
             <div className="solution-card">
-              <div className="solution-image">
+              <div className="solution-image" style={{ width: "300px" }}>
                 <Image
-                  src={`${basePath}/images/ventture.png`}
                   className="img-fluid"
+                  src={`${basePath}/images/logo/golphoenchd.jpg`}
                   alt=""
+                  style={{ width: "300px" }}
                   height={150}
-                  width={150}
+                  width={300}
                 ></Image>
               </div>
+              <h4 className="text-uppercase">Golphoen Chandigarh Edition</h4>
 
-              <h4>HANGOOL</h4>
-
-              <p></p>
-              <a
-                href="https://workyard.in"
-                target="_blank"
-                className="btn btn-visit"
-              >
+              <p>Required Ecosystem for Entrepreneurs in Chandigarh Tricity</p>
+              <a href="#" className="btn btn-visit">
                 Visit Website
                 <i className="bi bi-arrow-up-right"></i>
               </a>

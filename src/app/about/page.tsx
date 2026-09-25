@@ -12,11 +12,11 @@ export default function About() {
 
       <section className="py-5 bg-white">
         <div className="container">
-          <div className="row align-items-center g-5">
+          <div className="row align-items-center g-5   align-items-stretch">
             <div className="col-lg-6">
-              <div className="about-image">
+              <div className="about-image mt-5">
                 <img
-                  src={`${basePath}/images/banner/Goyco-1.jpg.jpeg`}
+                  src={`${basePath}/images/about/Goyco.jpg`}
                   className="img-fluid rounded-4"
                   alt=""
                 />
@@ -26,39 +26,46 @@ export default function About() {
             <div className="col-lg-6">
               <span className="section-title"> ABOUT US </span>
 
-              <h2 className="fw-bold mb-4">
-                SHORT BRIEFING OF WORKYARD CO-WORKING SPACES
-              </h2>
-
               <p>
-                WorkYard Coworking Spaces are Pocket Friendly Coworking Spaces
-                focusing on providing the Value for Money experience. WorkYard
-                Coworking Spaces were founded by our Founder i.e. Mr Hemant
-                Goyal in 2019.
-              </p>
-
-              <p>
-                WorkYard currently has 2 Premises operational, first one is in
-                Business & Industrial Park (eka Industrial Area), Phase 2,
-                Chandigarh (Since 2019) and second one is in Sector 5 (eka
-                Peermuchalla), Zirakpur, SAS Nagar. We are currently Operational
-                only in Chandigarh Tri-City.
+                Goyco Business Solutions Private Limited (GBSPL) is built for
+                Would Be / Currently Entrepreneurs / Entities in India — whether
+                they are planning to start a business, are already running one,
+                or are looking to grow, expand or strengthen their operations.
+                We aim to provide comprehensive business solutions covering the
+                various needs and requirements that arise throughout an
+                entrepreneur’s/entity’s business journey. We believe that
+                entrepreneurs should be able to access the right people,
+                services, technology, products and professional support without
+                having to manage multiple disconnected resources. We are a
+                professionally managed business solutions company focussed on
+                creating and delivering reliable infrastructure, operational
+                support and business solutions for organisations across
+                different stages of growth of the Would Be / Currently
+                Entrepreneurs / Entities. We understand that running or growing
+                any business requires more than a product or service. GBSPL
+                works to bridge this gap and provides efficient , flexible and
+                reliable business oriented services and solutions to meet the
+                modern day professional requirements. As our network and
+                capabilities grow, we aim to continuously expand the range of
+                solutions available to businesses, while remaining practical,
+                accessible and focused on the evolving needs of entrepreneurs
+                and entities.
               </p>
 
               <div className="row mt-5">
                 <div className="col-6">
                   <div className="counter-card">
-                    <h3>100+</h3>
+                    <h3>3+</h3>
 
-                    <p>Projects</p>
+                    <p>Solutions</p>
                   </div>
                 </div>
 
                 <div className="col-6">
                   <div className="counter-card">
-                    <h3>25+</h3>
+                    <h3>30+</h3>
 
-                    <p>Experts</p>
+                    <p>Subnational Network</p>
                   </div>
                 </div>
               </div>
@@ -89,9 +96,9 @@ export default function About() {
                 </div>
 
                 <p className="mt-2">
-                  Deliver innovative, scalable, and reliable software solutions
-                  that simplify business operations while creating long-term
-                  value for our clients.
+                  To build a stronger business ecosystem, create new
+                  opportunities, and achieve new milestones through innovation,
+                  collaboration, and trusted solutions.
                 </p>
               </div>
             </div>
@@ -107,16 +114,16 @@ export default function About() {
                 </div>
 
                 <p className="mt-2">
-                  To become a globally trusted technology partner recognized for
-                  innovation, excellence, and transforming businesses through
-                  digital solutions.
+                  To be a trusted business ecosystem that connects organizations
+                  with the right expertise, technology, products, and support to
+                  grow and succeed.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="team-section py-5">
+      {/* <section className="team-section py-5">
         <div className="container">
           <div className="text-center mb-5">
             <span className="section-tag">Our Team</span>
@@ -194,7 +201,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
