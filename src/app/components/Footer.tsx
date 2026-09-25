@@ -121,7 +121,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center">
-          <p>© 2026 GOYCO. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} GOYCO. All Rights Reserved.</p>
 
           <div>
             <a href="#">Privacy Policy</a>
