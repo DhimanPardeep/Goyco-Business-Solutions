@@ -43,7 +43,7 @@ export default function About() {
             <div className="col-lg-6">
               <span className="section-title"> ABOUT US </span>
 
-              <p>
+              <p className="mt-3">
                 Goyco Business Solutions Private Limited (GBSPL) is built for
                 Would Be / Currently Entrepreneurs / Entities in India — whether
                 they are planning to start a business, are already running one,
