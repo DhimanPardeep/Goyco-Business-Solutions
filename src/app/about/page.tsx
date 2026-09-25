@@ -16,7 +16,7 @@ export default function About() {
             <div className="col-lg-6">
               <div className="about-image mt-5">
                 <img
-                  src={`${basePath}/images/about/Goyco.jpg`}
+                  src={`${basePath}/images/about/Goyco.JPG`}
                   className="img-fluid rounded-4"
                   alt=""
                 />
