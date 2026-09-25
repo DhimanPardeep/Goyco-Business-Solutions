@@ -21,6 +21,23 @@ export default function About() {
                   alt=""
                 />
               </div>
+              <div className="row mt-5">
+                <div className="col-6">
+                  <div className="counter-card">
+                    <h3>3+</h3>
+
+                    <p>Solutions</p>
+                  </div>
+                </div>
+
+                <div className="col-6">
+                  <div className="counter-card">
+                    <h3>30+</h3>
+
+                    <p>Subnational Network</p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="col-lg-6">
@@ -51,24 +68,6 @@ export default function About() {
                 accessible and focused on the evolving needs of entrepreneurs
                 and entities.
               </p>
-
-              <div className="row mt-5">
-                <div className="col-6">
-                  <div className="counter-card">
-                    <h3>3+</h3>
-
-                    <p>Solutions</p>
-                  </div>
-                </div>
-
-                <div className="col-6">
-                  <div className="counter-card">
-                    <h3>30+</h3>
-
-                    <p>Subnational Network</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
